@@ -8,7 +8,7 @@
     align-items: center;
     border-radius: 12px;
     padding: 8px 12px 8px 12px;
-    background-color: #242223;
+    background-color: rgba(48, 45, 45, 0.34);
 
     &__image{
         width: 24px;
@@ -36,5 +36,39 @@
     &__name{
         text-align: left;
         @include text(rgba(242, 242, 242, 0.4), 20px, 400, 24px, none);
+    }
+}
+
+@media (max-width: 320px) {
+    .operating-block{
+        width: 100px;
+        height: 34px;
+        padding: 4px 8px 4px 8px;
+
+        &__image{
+            width: 20px;
+            height: 20px;
+        }
+
+        &__image>img{
+            width: 20px;
+            height: 20px;
+        }
+
+        &__link{
+            width: 53px;
+            height: 26px;
+            display: flex;
+        }
+
+        &__text{
+            font-size: 10px;
+            line-height: 10px;
+        }
+
+        &__name{
+            font-size: 14px;
+            line-height: 14px;
+        }
     }
 }

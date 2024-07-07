@@ -12,6 +12,8 @@
         width: 100%;
         height: 287px;
         display: flex;
+        z-index: 9;
+        position: relative;
     }
 
     &__header_block__feedback{
@@ -22,9 +24,11 @@
     }
 
     &__content{
-        display: flex;
+        z-index: 9;
         width: 1378px;
         height: 540px;
+        position: relative;
+        display: flex;
         justify-content: space-between;
     }
 
@@ -65,5 +69,49 @@
     }
 }
 
+@media (max-width: 320px) {
+    .App{
+        width: 320px;
+        height: 568px;
+        background-color: $background_color;
+        padding: 25px 16px;
 
+        &__header_block{
+            width: 100%;
+            height: auto;
+        }
 
+        &__header_block__feedback{
+            display: none;
+        }
+
+        &__content{
+            width: 100%;
+            height: auto;
+        }
+
+        &__content_block{
+            width: 100%;
+            height: auto;
+        }
+
+        &__title-span_wrapper{
+            margin-top: 22px;
+            margin-bottom: 32px;
+        }
+
+        &__button_wrapper{
+            margin-top: 30px;
+            margin-bottom: 18px;
+        }
+
+        &__operating_block{
+            width: 216px;
+            margin: auto;
+        }
+
+        &__content_feedback{
+            display: none;
+        }
+    }
+}

@@ -9,7 +9,7 @@ const TitleHeader:FC = () =>{
     return (
         <div className="title-header">    
             <TitleH1 
-                text='Do you want to Learn more About cryptocurrencies ' 
+                text='Do you want to Learn more About cryptocurrenc ies ' 
                 decorativeText='quickly and easily ?' />
         </div>
     )

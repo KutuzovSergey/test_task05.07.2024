@@ -7,7 +7,7 @@ import OperatingSystem from './components/OperatingSystem';
 import Feedback from './components/Feedback';
 import Background from './components/Background';
 import android from './images/icon/iconAndroid.png';
-import ios from './images/icon/ios.png';
+import ios from './images/icon/iconIos.png';
 import Lorenzo from './images/users/Lorenzo.png';
 import Adalina from './images/users/Adalina.png';
 import Alexander from './images/users/Alexander.png';

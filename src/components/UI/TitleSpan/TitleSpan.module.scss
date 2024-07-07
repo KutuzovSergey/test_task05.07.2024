@@ -11,3 +11,18 @@
         text-align: left;
     }
 }
+
+@media (max-width: 320px) {
+    .title{
+        width: 220px;
+        margin: auto;
+        justify-content: center;
+
+        &__text{
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+}

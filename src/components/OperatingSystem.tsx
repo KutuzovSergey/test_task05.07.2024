@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import CaseBlock from "./CaseBlock";
 
 import '../styles/componentStyles/OperatingSystem.scss';
 

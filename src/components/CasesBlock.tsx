@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import CaseBlock from "./CaseBlock";
+import Case from "./Case";
 
 import '../styles/componentStyles/CasesBlock.scss';
 
@@ -8,9 +8,9 @@ const CasesBlock:FC = () =>{
 
     return (
         <div className="cases-block">    
-            <CaseBlock indicatorText="20K+" nameText="subscribers" />
-            <CaseBlock indicatorText="19,5K" nameText="successful cases" />
-            <CaseBlock indicatorText="4.8/5" nameText="rating" />
+            <Case indicatorText="20K+" nameText="subscribers" />
+            <Case indicatorText="19,5K" nameText="successful cases" />
+            <Case indicatorText="4.8/5" nameText="rating" />
         </div>
     )
 }

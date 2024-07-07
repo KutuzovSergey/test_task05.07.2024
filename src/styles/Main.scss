@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
 
-$background_color: #1c1a1b;
+$background_color: rgba(28, 26, 26, 1);
 $font_style_element: 'Rubik Mono One', sans-serif;
 
 @mixin text($color, $fontSize, $fontWeight, $lineHeight, $textTransform){

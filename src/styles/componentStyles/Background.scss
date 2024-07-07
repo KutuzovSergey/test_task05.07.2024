@@ -36,3 +36,24 @@
         bottom: 5px;
     }
 }
+
+@media (max-width: 320px) {
+    .background{
+        &__bitcoin{
+            width: 136px;
+            right: 5px;
+            top: 16px;
+        }
+        &__litecoin{
+            width: 140px;
+            right: 170px;
+            top: 80px;
+        }
+
+        &__ethereum{
+            width: 136px;
+            right: 5px;
+            bottom: 175px;
+        }
+    }
+}

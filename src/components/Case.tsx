@@ -1,12 +1,12 @@
 import React, { FC } from "react";
 
-import '../styles/componentStyles/CaseBlock.scss';
+import '../styles/componentStyles/Case.scss';
 
 type Props = {
     indicatorText: string,
     nameText: string,
 }
-const CaseBlock:FC<Props> = (props: Props) =>{
+const Case:FC<Props> = (props: Props) =>{
 
     return (
         <div className="case">  
@@ -20,4 +20,4 @@ const CaseBlock:FC<Props> = (props: Props) =>{
     )
 }
 
-export default CaseBlock;
+export default Case;
