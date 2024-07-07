@@ -1,0 +1,27 @@
+@import '../Main.scss';
+
+.case{
+    max-width: 97px;
+    max-height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__indicator{
+        width: 100%;
+        height: auto;
+    }
+
+    &__indicator__text{
+        @include text(#ffffff, 48px, 700, 48px, uppercase);
+    }
+
+    &__name{
+        width: 100%;
+        height: auto;
+    }
+
+    &__name__text{
+        @include text(#ffffff, 18px, 400, 24px, none);
+    }
+}

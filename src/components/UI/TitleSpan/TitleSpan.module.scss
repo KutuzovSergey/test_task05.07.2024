@@ -1,0 +1,14 @@
+@import '../../../styles/Main.scss';
+
+.title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+
+    &__text{
+        @include text(#ffffff, 34px, 500, 40.8px, none);
+        text-align: left;
+        margin: auto;
+    }
+}

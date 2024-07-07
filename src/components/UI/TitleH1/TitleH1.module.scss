@@ -1,0 +1,12 @@
+@import '../../../styles/Main.scss';
+
+.title{
+    @include text(#ffffff, 84px, 800, 100.8px, uppercase);
+    
+    &__text_decorative{
+        background: linear-gradient(45deg, #7971c7 33%, #7397ad 66%, #6db99e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #ffffff;
+    }
+}

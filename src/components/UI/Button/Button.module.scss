@@ -1,0 +1,14 @@
+@import '../../../styles/Main.scss';
+
+.button{
+    @include text(#1C1A1A, 28px, 500, 28px, uppercase);
+    width: 532px;
+    height: 56px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    background: linear-gradient( 180deg, #7C6FCF, #74AEAA, #6FCF97 );
+    
+    // background: -moz-linear-gradient(0% 100% 90deg,#7C6FCF, #74AEAA, #6FCF97);
+    // background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73c2fd), to(#2e8ce3));
+}

@@ -1,0 +1,29 @@
+@import './Main.scss';
+
+.App{
+    max-width: 2440px;
+    max-height: 916px;
+    background-color: $background_color;
+    padding: 48px 62px;
+}
+
+.header_block{
+    width: 100%;
+    height: 303px;
+    display: flex;
+}
+.title-span_block{
+    margin-top: 50px;
+    margin-bottom: 78px;
+}
+
+.button_block{
+    margin-top: 101px;
+    margin-bottom: 78px;
+}
+
+.operating_block{
+    width: 284px;
+    display: flex;
+    justify-content: space-between;
+}
