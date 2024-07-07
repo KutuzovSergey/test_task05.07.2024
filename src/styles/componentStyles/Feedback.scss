@@ -1,15 +1,16 @@
 @import '../Main.scss';
 
 .feedback{
+    z-index: 99;
     max-width: 288px;
     height: 138px;
     border-radius: 20px;
     border: 1px solid #6FCF97;
-    padding: 16px 0px 16px 20px;
+    padding: 16px 25px 16px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #302D2D;
+    background-color: rgba(48, 45, 45, 0.34);
 
     &__user{
         width: 100%;
@@ -33,7 +34,7 @@
     &__name{
         width: auto;
         height: 48px;
-        margin-left: 30px;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -45,11 +46,11 @@
     &__name__nickname{
         @include text(rgba(242, 242, 242, 0.4), 16px, 500, 20px, none);
     }
-    &__tex{
+    &__text{
         width: 100%;
         height: auto;
     }
-    &__tex>p{
+    &__text>p{
         @include text(rgba(242, 242, 242, 1), 18px, 400, 20.7px, none);
     }
 }

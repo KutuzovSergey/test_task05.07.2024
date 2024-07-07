@@ -1,8 +1,8 @@
 @import '../Main.scss';
 
 .case{
-    max-width: 97px;
-    max-height: 74px;
+    width: 97px;
+    height: 74px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,7 +13,7 @@
     }
 
     &__indicator__text{
-        @include text(#ffffff, 48px, 700, 48px, uppercase);
+        @include text(rgba(242, 242, 242, 1), 48px, 700, 48px, uppercase);
     }
 
     &__name{
@@ -22,6 +22,6 @@
     }
 
     &__name__text{
-        @include text(#ffffff, 18px, 400, 24px, none);
+        @include text(rgba(242, 242, 242, 0.3), 18px, 400, 24px, none);
     }
 }

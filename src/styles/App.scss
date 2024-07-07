@@ -1,29 +1,69 @@
 @import './Main.scss';
 
 .App{
-    max-width: 2440px;
-    max-height: 916px;
+    margin: auto;
+    width: 1440px;
+    height: 916px;
     background-color: $background_color;
     padding: 48px 62px;
+    position: relative;
+
+    &__header_block{
+        width: 100%;
+        height: 287px;
+        display: flex;
+    }
+
+    &__header_block__feedback{
+        z-index: 9;
+        width: 432px;
+        height: 303px;
+        padding: 125px 0 0 0;
+    }
+
+    &__content{
+        display: flex;
+        width: 1378px;
+        height: 540px;
+        justify-content: space-between;
+    }
+
+    &__content_block{
+        width: 773px;
+        height: 540px;
+    }
+
+    &__title-span_wrapper{
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    &__button_wrapper{
+        margin-top: 99px;
+        margin-bottom: 76px;
+    }
+
+    &__operating_block{
+        width: 284px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content_feedback{
+        z-index: 9;
+        width: 480px;
+        height: 455px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__content_feedback_right{
+        width: 483px;
+        height: auto;
+        padding-left: 115px;
+    }
 }
 
-.header_block{
-    width: 100%;
-    height: 303px;
-    display: flex;
-}
-.title-span_block{
-    margin-top: 50px;
-    margin-bottom: 78px;
-}
 
-.button_block{
-    margin-top: 101px;
-    margin-bottom: 78px;
-}
 
-.operating_block{
-    width: 284px;
-    display: flex;
-    justify-content: space-between;
-}

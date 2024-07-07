@@ -9,7 +9,9 @@ type Props = {
 const Button: FC<Props> = ({children}: Props) => {
 
     return (
-        <button  className={cl.button}>{children}</button>
+        <div className={cl.button_wrapper}>
+            <button  className={cl.button}>{children}</button>
+        </div>
     )
 }
 

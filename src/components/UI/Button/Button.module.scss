@@ -1,14 +1,25 @@
 @import '../../../styles/Main.scss';
 
+
+.button_wrapper{
+    width: 532px;
+    height: 56px;
+    border-radius: 30%;
+    // -moz-border-radius: 20px;
+    // -webkit-border-radius: 20px;
+    box-shadow: 0 0px 150px 0  rgba(165, 191, 180, 0.42);
+    // -webkit-box-shadow: 4px 4px 8px 55px rgba(34, 60, 80, 0.2);
+    // -moz-box-shadow: 4px 4px 8px 55px rgba(34, 60, 80, 0.2);
+}
 .button{
     @include text(#1C1A1A, 28px, 500, 28px, uppercase);
     width: 532px;
     height: 56px;
+    padding: 16px 0px 14px 0px;
     border-radius: 16px;
     -moz-border-radius: 16px;
     -webkit-border-radius: 16px;
-    background: linear-gradient( 180deg, #7C6FCF, #74AEAA, #6FCF97 );
-    
-    // background: -moz-linear-gradient(0% 100% 90deg,#7C6FCF, #74AEAA, #6FCF97);
-    // background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73c2fd), to(#2e8ce3));
+    background: linear-gradient( 90deg, #7C6FCF, #74AEAA, #6FCF97 );
+    background: -moz-linear-gradient(0% 100% 90deg,#7C6FCF, #74AEAA, #6FCF97);
+    // background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7C6FCF), to(#6FCF97));
 }

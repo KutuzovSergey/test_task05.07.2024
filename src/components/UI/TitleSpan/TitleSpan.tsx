@@ -9,7 +9,7 @@ type Props = {
 const TitleSpan: FC<Props> = ({children}: Props) => {
 
     return (
-        <div className="cl.title">
+        <div className={cl.title}>
             <span className={cl.title__text}>{children}</span>
         </div>
     )

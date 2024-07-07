@@ -21,7 +21,7 @@
     }
 
     &__link{
-        width: 69px;
+        width: 75px;
         height: 39px;
         display: flex;
         flex-direction: column;
@@ -30,11 +30,11 @@
 
     &__text{
         text-align: left;
-        @include text(#F2F2F2, 12px, 400, 12px, none);
+        @include text(rgba(242, 242, 242, 0.4), 12px, 400, 12px, none);
     }
 
     &__name{
         text-align: left;
-        @include text(#F2F2F2, 20px, 400, 24px, none);
+        @include text(rgba(242, 242, 242, 0.4), 20px, 400, 24px, none);
     }
 }
