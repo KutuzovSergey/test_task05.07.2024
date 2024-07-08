@@ -12,7 +12,7 @@
     -moz-box-shadow: 0 0px 150px 0  rgba(165, 191, 180, 0.42);
 }
 .button{
-    @include text(#1C1A1A, 28px, 500, 28px, uppercase);
+    @include text(#1C1A1A, 1.75rem, 500, 28px, uppercase);
     width: 532px;
     height: 56px;
     padding: 16px 0px 14px 0px;
@@ -33,7 +33,7 @@
     .button{
         width: 288px;
         height: 48px;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 24px;
         padding: 12px 0px 12px 0px;
     }

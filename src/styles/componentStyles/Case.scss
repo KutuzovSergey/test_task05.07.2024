@@ -13,7 +13,7 @@
     }
 
     &__indicator__text{
-        @include text(rgba(242, 242, 242, 1), 48px, 700, 48px, uppercase);
+        @include text(rgba(242, 242, 242, 1), 3rem, 700, 48px, uppercase);
     }
 
     &__name{
@@ -22,7 +22,7 @@
     }
 
     &__name__text{
-        @include text(rgba(242, 242, 242, 0.3), 18px, 400, 24px, none);
+        @include text(rgba(242, 242, 242, 0.3), 1.125rem, 400, 24px, none);
     }
 }
 
@@ -32,12 +32,12 @@
         height: auto;
 
         &__indicator__text{
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 20px;
         }
 
         &__name__text{
-            font-size: 14px;
+            font-size: 0.875rem;
             line-height: 14px;
         }
     }

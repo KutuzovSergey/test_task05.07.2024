@@ -51,16 +51,16 @@
     }
 
     &__name__first{
-        @include text(rgba(242, 242, 242, 1), 18px, 600, 24px, uppercase);
+        @include text(rgba(242, 242, 242, 1), 1.25rem, 600, 24px, uppercase);
     }
     &__name__nickname{
-        @include text(rgba(242, 242, 242, 0.4), 16px, 500, 20px, none);
+        @include text(rgba(242, 242, 242, 0.4), 1rem, 500, 20px, none);
     }
     &__text{
         width: 100%;
         height: auto;
     }
     &__text>p{
-        @include text(rgba(242, 242, 242, 1), 18px, 400, 20.7px, none);
+        @include text(rgba(242, 242, 242, 1), 1.1rem, 400, 20.7px, none);
     }
 }

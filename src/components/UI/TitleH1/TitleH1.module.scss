@@ -3,7 +3,7 @@
 .title{
     width: 1008px;
     display: block;
-    @include text(#ffffff, 84px, 800, 100.8px, uppercase);
+    @include text(#ffffff, 5.25rem, 800, 100.8px, uppercase);
     
     &__text_decorative{
         background: linear-gradient(45deg, #7971c7 33%, #7397ad 66%, #6db99e);
@@ -17,12 +17,12 @@
     .title{
         width: auto;
         display: inline-block;
-        font-size: 40px;
+        font-size: 2.5rem;
         text-align: center;
         line-height: 43.2px;
 
         &__text_decorative{
-            font-size: 40px;
+            font-size: 2.5rem;
             text-align: center;
             line-height: 43.2px;
         }

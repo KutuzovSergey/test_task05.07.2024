@@ -33,12 +33,12 @@
 
     &__text{
         text-align: left;
-        @include text(rgba(242, 242, 242, 0.4), 12px, 400, 12px, none);
+        @include text(rgba(242, 242, 242, 0.4), 0.75rem, 400, 12px, none);
     }
 
     &__name{
         text-align: left;
-        @include text(rgba(242, 242, 242, 0.4), 20px, 400, 24px, none);
+        @include text(rgba(242, 242, 242, 0.4), 1.25rem, 400, 24px, none);
     }
 }
 
@@ -65,12 +65,12 @@
         }
 
         &__text{
-            font-size: 10px;
+            font-size: 0.625rem;
             line-height: 10px;
         }
 
         &__name{
-            font-size: 14px;
+            font-size: 0.875rem;
             line-height: 14px;
         }
     }
