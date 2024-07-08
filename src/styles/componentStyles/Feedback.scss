@@ -4,13 +4,21 @@
     z-index: 99;
     max-width: 288px;
     height: 138px;
-    border-radius: 20px;
-    border: 1px solid #6FCF97;
     padding: 16px 25px 16px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(48, 45, 45, 0.34);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+    border: 3px solid transparent;
+    background: 
+        linear-gradient(to right, rgba(124, 111, 207, 0.194), rgba(116, 174, 170, 0.19)), 
+        linear-gradient(to right, rgba(111, 207, 151, 0.2), rgba(124, 111, 207, 0.194)); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
 
     &__user{
         width: 100%;
@@ -23,6 +31,8 @@
         width: 48px;
         height: 48px;
         border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
         overflow: hidden;
     }
 
